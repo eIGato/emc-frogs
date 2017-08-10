@@ -30,4 +30,4 @@ class LampsArray(object):
 
 
 lamps = LampsArray(100)
-switch = lamps.switch
+press = lamps.switch

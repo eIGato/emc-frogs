@@ -12,7 +12,7 @@ class Frog(object):
     def jump(self):
         self.position += self.step
         try:
-            framework.switch(self.position)
+            framework.press(self.position)
         except IndexError:
             self.position = None
         return self.position
